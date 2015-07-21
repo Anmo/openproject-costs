@@ -31,7 +31,7 @@ class CostObject < ActiveRecord::Base
 
   include ActiveModel::ForbiddenAttributesProtection
 
-  acts_as_attachable :after_remove => :attachment_removed
+  #acts_as_attachable :after_remove => :attachment_removed
 
   acts_as_journalized
 
